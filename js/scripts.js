@@ -29,4 +29,19 @@ $(document).ready(function() {
     $("#descShortie").slideToggle();
 
   });
+  $("#homer").click(function() {
+    $("#capy1").slideToggle();
+    $("#descHomer").slideToggle();
+
+  });
+  $("#rodger").click(function() {
+    $("#capy2").slideToggle();
+    $("#descRodger").slideToggle();
+
+  });
+  $("#captain").click(function() {
+    $("#capy3").slideToggle();
+    $("#descCaptain").slideToggle();
+
+  });
 });
