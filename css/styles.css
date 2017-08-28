@@ -2,3 +2,26 @@ img {
   width: 250px;
   height: 200px;
 }
+.clickable {
+  cursor: pointer;
+  color: white;
+}
+
+.clickable: hover {
+  text-decoration: underline;
+}
+
+.initiallyHidden {
+  display: none;
+}
+
+.jumbotron {
+  background-image: url(../img/logo.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 1500px;
+  background-color: #C6523A;
+}
+body {
+  background-color: #4B88A8;
+}
